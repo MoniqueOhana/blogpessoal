@@ -1,6 +1,6 @@
 import { IsEmail, IsNotEmpty, MinLength } from 'class-validator';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { Postagem } from '../../postagem/entities/postagem.Entidade';
+import { Postagem } from '../../postagem/entities/postagem.entity';
 
 @Entity({ name: 'tb_usuario' })
 export class Usuario {
